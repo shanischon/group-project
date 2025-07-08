@@ -26,7 +26,7 @@ sg_name = "cloudify-sg"
 create_eip = true
 
 # Nginx Configuration
-nginx_html_content = <<-EOT
+nginx_html_content = <<EOF
 <html>
 <head>
   <title>Welcome to Cloudify</title>
@@ -61,4 +61,4 @@ nginx_html_content = <<-EOT
   </div>
 </body>
 </html>
-EOT
+EOF
